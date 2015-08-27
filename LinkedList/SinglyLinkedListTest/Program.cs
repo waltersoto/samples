@@ -16,9 +16,15 @@ namespace SinglyLinkedListTest
             list.Add("A");
             list.Add("B");
             list.Add("C");
+           
+            list.RemoveAt(1);
 
             list.Traverse(Console.WriteLine);
 
+            
+
+          
+            
 
             Console.WriteLine("Hit any key...");
             Console.ReadLine();
